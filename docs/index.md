@@ -7,11 +7,11 @@ hero:
   tagline: 专为跨性别女性身心成长设计的慈悲与自我认同冥想实践
   actions:
     - theme: brand
-      text: 快速了解
-      link: /about
-    - theme: alt
       text: 主要练习内容
       link: /meditations/
+    - theme: alt
+      text: 快速了解
+      link: /about
 
 features:
   - title: 女性身份自我接纳

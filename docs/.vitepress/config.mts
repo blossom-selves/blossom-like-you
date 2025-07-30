@@ -24,6 +24,50 @@ function getCleanDisplayName(filePath: string): string {
     .replace(/\.md$/, '') // Remove .md extension
 }
 
+// Function to get clean URL path from category name (automatic)
+function getCleanCategoryPath(category: string): string {
+  return category
+    .replace(/^\d+_/, '') // Remove number prefix like "1_"
+    .replace(/_/g, '-') // Replace underscores with hyphens for URL-friendly format
+}
+
+// Function to get clean file name without number prefixes
+function getCleanFileName(fileName: string): string {
+  return fileName
+    .replace(/^\d+_\d+_/, '') // Remove patterns like "1_1_"
+    .replace(/^\d+_/, '') // Remove patterns like "1_"
+    .replace(/_/g, '-') // Replace underscores with hyphens for URL-friendly format
+}
+
+// Function to generate rewrites configuration automatically  
+function generateRewrites() {
+  const meditationsDir = join(__dirname, '../meditations')
+  const categories = readdirSync(meditationsDir, { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory())
+    .map(dirent => dirent.name)
+
+  const rewrites: Record<string, string> = {}
+  
+  for (const category of categories) {
+    const cleanCategoryPath = getCleanCategoryPath(category)
+    const categoryPath = join(meditationsDir, category)
+    
+    // 处理目录首页
+    rewrites[`meditations/${category}/index.md`] = `meditations/${cleanCategoryPath}/index.md`
+    
+    // 处理该目录下的所有文件
+    const files = readdirSync(categoryPath)
+      .filter(file => file.endsWith('.md') && file !== 'index.md')
+    
+    for (const file of files) {
+      const cleanFileName = getCleanFileName(file.replace('.md', ''))
+      rewrites[`meditations/${category}/${file}`] = `meditations/${cleanCategoryPath}/${cleanFileName}.md`
+    }
+  }
+  
+  return rewrites
+}
+
 // Function to generate sidebar automatically
 function generateSidebar() {
   const meditationsDir = join(__dirname, '../meditations')
@@ -41,6 +85,7 @@ function generateSidebar() {
   for (const category of categories) {
     const categoryPath = join(meditationsDir, category)
     const indexPath = join(categoryPath, 'index.md')
+    const cleanCategoryPath = getCleanCategoryPath(category)
     
     // Extract category title from index.md
     let categoryTitle = ''
@@ -53,7 +98,7 @@ function generateSidebar() {
     // Add index.md as "章节简介"
     items.push({
       text: '章节简介',
-      link: `/meditations/${category}/`
+      link: `/meditations/${cleanCategoryPath}/`
     })
 
     // Get all markdown files except index.md
@@ -64,10 +109,11 @@ function generateSidebar() {
     for (const file of files) {
       const filePath = join(categoryPath, file)
       const title = extractFirstHeading(filePath) || getCleanDisplayName(file)
+      const cleanFileName = getCleanFileName(file.replace('.md', ''))
       
       items.push({
         text: title,
-        link: `/meditations/${category}/${file.replace('.md', '')}`
+        link: `/meditations/${cleanCategoryPath}/${cleanFileName}`
       })
     }
 
@@ -84,6 +130,9 @@ function generateSidebar() {
 export default defineConfig({
   title: '花开如你',
   description: '"花开如你" 冥想系列，为跨性别女性提供科学、温柔的心理冥想支持',
+  
+  // URL重写规则，自动化简化URL结构
+  rewrites: generateRewrites(),
   
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
