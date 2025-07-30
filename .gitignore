@@ -1,0 +1,49 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# VitePress
+docs/.vitepress/cache
+docs/.vitepress/dist
+docs/.vitepress/.temp
+docs/.vitepress/components.d.ts
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files
+.env*
+
+# IDE
+/.idea/
+/.vscode/
+CLAUDE.md
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# production
+/build
+
+# vercel
+.vercel
+
+# next.js
+/.next/
+/out/
+
+# testing
+/coverage
