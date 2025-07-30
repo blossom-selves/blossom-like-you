@@ -144,4 +144,4 @@ Stay tuned for more features!
 [issues-url]: https://github.com/iuu6/blossom-selves/issues
 [license-shield]: https://img.shields.io/github/license/iuu6/blossom-selves.svg?style=for-the-badge
 [license-url]: https://github.com/iuu6/blossom-selves/blob/master/LICENSE
-[product-screenshot]: images/logos/product-screenshot.png
+[product-screenshot]: images/logos/product-screenshot.jpg
