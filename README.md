@@ -20,12 +20,12 @@
   <p align="center">
     “花开如你”（Blossom Like You）冥想系列
     <br />
-    <a href="https://github.com/iuu6/blossom-selves?tab=readme-ov-file#快速开始"><strong>Start >></strong></a>
+    <a href="https://github.com/iuu6/blossom-selves?tab=readme-ov-file#快速了解"><strong>快速了解 >></strong></a>
     <br />
     <br />
-    <a href="https://github.dev/iuu6/blossom-selves">Quick Edit</a>
+    <a href="https://github.dev/iuu6/blossom-selves">快速编辑</a>
     ·
-    <a href="https://github.com/iuu6/blossom-selves/issues">Report an error/suggest more content</a>
+    <a href="https://github.com/iuu6/blossom-selves/issues">报告错误/提交建议</a>
     ·
     <a href="#">More...</a>
   </p>
@@ -60,7 +60,7 @@
 
 # 关于本项目
 
-![product-screenshot][product-screenshot]
+<img src="images/logos/product-screenshot.jpg" alt="product-screenshot" width="512" height="361">
 
 **“花开如你”（Blossom Like You）** 是一套专为跨性别女性（Transgender Women）量身打造的心理关怀冥想练习开源项目。我们致力于通过科学的正念、冥想和自我接纳练习，帮助跨性别女性缓解生理与心理不适，增强对自我和女性身份的积极认同，陪伴她们在自我实现与成长的道路上温柔绽放。
 
@@ -144,4 +144,3 @@ Stay tuned for more features!
 [issues-url]: https://github.com/iuu6/blossom-selves/issues
 [license-shield]: https://img.shields.io/github/license/iuu6/blossom-selves.svg?style=for-the-badge
 [license-url]: https://github.com/iuu6/blossom-selves/blob/master/LICENSE
-[product-screenshot]: images/logos/product-screenshot.jpg
