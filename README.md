@@ -60,7 +60,9 @@
 
 # 关于本项目
 
+<div align="center">
 <img src="images/logos/product-screenshot.jpg" alt="product-screenshot" width="512" height="361">
+</div>
 
 **“花开如你”（Blossom Like You）** 是一套专为跨性别女性（Transgender Women）量身打造的心理关怀冥想练习开源项目。我们致力于通过科学的正念、冥想和自我接纳练习，帮助跨性别女性缓解生理与心理不适，增强对自我和女性身份的积极认同，陪伴她们在自我实现与成长的道路上温柔绽放。
 
