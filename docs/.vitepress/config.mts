@@ -58,7 +58,7 @@ export default defineConfig({
     
     footer: {
       message: '用爱与温柔，陪伴每一位跨性别女性成长。',
-      copyright: 'Copyright © 2024 花开如你项目组'
+      copyright: 'Copyright © 2025-Now 花开如你项目组'
     },
     
     search: {

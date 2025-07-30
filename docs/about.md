@@ -99,6 +99,3 @@
 
 - 项目网站：[https://blsv.pages.dev](https://blsv.pages.dev)
 - GitHub：[https://github.com/iuu6/blossom-selves](https://github.com/iuu6/blossom-selves)
-- 邮箱：contact@blossom-like-you.org
-
-*最后更新：2024年*
