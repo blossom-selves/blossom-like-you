@@ -36,13 +36,11 @@ jobs:
           # Add build info to about.md
           cat >> docs/about.md << EOF
           
-          ---
           
           ## 构建信息
           
           - **最后更新时间**: ${BUILD_TIME}
           - **Git 提交哈希**: \`${COMMIT_HASH}\`
-          - **构建版本**: $(git describe --tags --always 2>/dev/null || echo "v1.0.0")
           EOF
 
       - name: Build with VitePress
