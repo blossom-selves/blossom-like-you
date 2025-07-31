@@ -5,6 +5,9 @@ hero:
   name: "Blossom Like You"
   text: "“花开如你” 冥想系列"
   tagline: 专为跨性别女性身心成长设计的慈悲与自我认同冥想实践
+  image:
+    src: ./logos/logo.png
+    alt: Blossom Logo
   actions:
     - theme: brand
       text: 主要练习内容
