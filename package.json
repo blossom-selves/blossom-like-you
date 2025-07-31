@@ -6,6 +6,7 @@
     "vue": "^3.5.18"
   },
   "devDependencies": {
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.1",
     "@types/node": "^24.1.0",
     "vitepress": "^1.6.3"
   },
