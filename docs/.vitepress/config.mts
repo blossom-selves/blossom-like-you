@@ -2,6 +2,10 @@ import { defineConfig } from "vitepress";
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  GitChangelog,
+  GitChangelogMarkdownSection,
+} from "@nolebase/vitepress-plugin-git-changelog/vite";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -178,6 +182,29 @@ export default defineConfig({
         dateStyle: "short",
         timeStyle: "medium",
       },
+    },
+  },
+  vite: {
+    plugins: [
+      GitChangelog({
+        // Fill in your repository URL here
+        repoURL: () => "https://github.com/iuu6/blossom-selves",
+      }),
+      GitChangelogMarkdownSection(),
+    ],
+    optimizeDeps: {
+      exclude: [
+        "@nolebase/vitepress-plugin-enhanced-readabilities/client",
+        "vitepress",
+        "@nolebase/ui",
+      ],
+    },
+    ssr: {
+      noExternal: [
+        // If there are other packages that need to be processed by Vite, you can add them here.
+        "@nolebase/vitepress-plugin-enhanced-readabilities",
+        "@nolebase/ui",
+      ],
     },
   },
 });
