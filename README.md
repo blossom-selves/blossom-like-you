@@ -13,7 +13,7 @@
 <br />
 
 <div align="center">
-  <a href="https://github.com/iuu6/blossom-selves">
+  <a href="https://github.com/blossom-selves/blossom-selves">
     <img src="docs/public/logos/logo.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Blossom Like You</h3>
@@ -23,9 +23,9 @@
     <a href="https://blsv.pages.dev/"><strong>快速了解 >></strong></a>
     <br />
     <br />
-    <a href="https://github.dev/iuu6/blossom-selves">快速编辑</a>
+    <a href="https://github.dev/blossom-selves/blossom-selves">快速编辑</a>
     ·
-    <a href="https://github.com/iuu6/blossom-selves/issues">报告错误/提交建议</a>
+    <a href="https://github.com/blossom-selves/blossom-selves/issues">报告错误/提交建议</a>
     ·
     <a href="#">More...</a>
   </p>
@@ -136,13 +136,13 @@ Stay tuned for more features!
 
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/iuu6/blossom-selves.svg?style=for-the-badge
-[contributors-url]: https://github.com/iuu6/blossom-selves/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/iuu6/blossom-selves.svg?style=for-the-badge
-[forks-url]: https://github.com/iuu6/blossom-selves/network/members
-[stars-shield]: https://img.shields.io/github/stars/iuu6/blossom-selves.svg?style=for-the-badge
-[stars-url]: https://github.com/iuu6/blossom-selves/stargazers
-[issues-shield]: https://img.shields.io/github/issues/iuu6/blossom-selves.svg?style=for-the-badge
-[issues-url]: https://github.com/iuu6/blossom-selves/issues
-[license-shield]: https://img.shields.io/github/license/iuu6/blossom-selves.svg?style=for-the-badge
-[license-url]: https://github.com/iuu6/blossom-selves/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/blossom-selves/blossom-selves.svg?style=for-the-badge
+[contributors-url]: https://github.com/blossom-selves/blossom-selves/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/blossom-selves/blossom-selves.svg?style=for-the-badge
+[forks-url]: https://github.com/blossom-selves/blossom-selves/network/members
+[stars-shield]: https://img.shields.io/github/stars/blossom-selves/blossom-selves.svg?style=for-the-badge
+[stars-url]: https://github.com/blossom-selves/blossom-selves/stargazers
+[issues-shield]: https://img.shields.io/github/issues/blossom-selves/blossom-selves.svg?style=for-the-badge
+[issues-url]: https://github.com/blossom-selves/blossom-selves/issues
+[license-shield]: https://img.shields.io/github/license/blossom-selves/blossom-selves.svg?style=for-the-badge
+[license-url]: https://github.com/blossom-selves/blossom-selves/blob/master/LICENSE

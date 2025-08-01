@@ -85,7 +85,7 @@
 - 💡 新功能想法
 - 🤝 社区建设和推广
 
-请通过 [GitHub](https://github.com/iuu6/blossom-selves) 参与项目建设。
+请通过 [GitHub](https://github.com/blossom-selves/blossom-selves) 参与项目建设。
 
 ## 致谢
 
@@ -98,4 +98,4 @@
 ## 联系我们
 
 - 项目网站：[https://blsv.pages.dev](https://blsv.pages.dev)
-- GitHub：[https://github.com/iuu6/blossom-selves](https://github.com/iuu6/blossom-selves)
+- GitHub：[https://github.com/blossom-selves/blossom-selves](https://github.com/blossom-selves/blossom-selves)

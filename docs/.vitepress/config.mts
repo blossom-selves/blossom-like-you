@@ -159,7 +159,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/iuu6/blossom-selves" },
+      { icon: "github", link: "https://github.com/blossom-selves/blossom-selves" },
     ],
 
     footer: {
@@ -172,7 +172,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: "https://github.com/iuu6/blossom-selves/edit/main/docs/:path",
+      pattern: "https://github.com/blossom-selves/blossom-selves/edit/main/docs/:path",
       text: "在 GitHub 上编辑此页",
     },
 
@@ -188,7 +188,7 @@ export default defineConfig({
     plugins: [
       GitChangelog({
         // Fill in your repository URL here
-        repoURL: () => "https://github.com/iuu6/blossom-selves",
+        repoURL: () => "https://github.com/blossom-selves/blossom-selves",
       }),
       GitChangelogMarkdownSection(),
     ],
