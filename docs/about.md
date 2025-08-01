@@ -97,5 +97,5 @@
 
 ## 联系我们
 
-- 项目网站：[https://blsv.pages.dev](https://blsv.pages.dev)
+- 项目网站：[https://www.blsv.org](https://www.blsv.org)
 - GitHub：[https://github.com/blossom-selves/blossom-selves](https://github.com/blossom-selves/blossom-selves)

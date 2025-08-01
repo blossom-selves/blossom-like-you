@@ -20,7 +20,7 @@
   <p align="center">
     “花开如你”（Blossom Like You）冥想系列
     <br />
-    <a href="https://blsv.pages.dev/"><strong>快速了解 >></strong></a>
+    <a href="https://www.blsv.org/"><strong>快速了解 >></strong></a>
     <br />
     <br />
     <a href="https://github.dev/blossom-selves/blossom-selves">快速编辑</a>
