@@ -143,7 +143,7 @@ export default defineConfig({
   // URL重写规则，自动化简化URL结构
   rewrites: generateRewrites(),
 
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [["link", { rel: "icon", href: "/logos/logo.png" }]],
 
   themeConfig: {
     logo: "/logos/logo.png",
