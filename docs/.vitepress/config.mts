@@ -209,7 +209,4 @@ export default defineConfig({
       ],
     },
   },
-  sitemap: {
-    hostname: 'https://example.com'
-  }
 });
