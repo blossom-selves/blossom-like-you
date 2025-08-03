@@ -1,0 +1,12 @@
+name: Markdown lint and style check
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: DavidAnson/markdownlint-cli2-action@v20
+      with:
+        globs: docs/**/*.md
