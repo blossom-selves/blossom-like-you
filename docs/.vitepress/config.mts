@@ -143,6 +143,8 @@ export default defineConfig({
   // URL重写规则，自动化简化URL结构
   rewrites: generateRewrites(),
 
+  cleanUrls: true,
+
   head: [["link", { rel: "icon", href: "/logos/logo.png" }]],
 
   themeConfig: {
