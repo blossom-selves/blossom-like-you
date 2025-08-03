@@ -145,6 +145,21 @@ export default defineConfig({
 
   cleanUrls: true,
 
+  // Sitemap 配置
+  sitemap: {
+    hostname: 'https://www.blsv.org',
+    lastmodDateOnly: false,
+    transformItems: (items) => {
+      return items.map((item) => {
+        // 只保留基本信息，去掉 priority 和 changefreq
+        return {
+          url: item.url,
+          lastmod: item.lastmod
+        };
+      });
+    }
+  },
+
   head: [["link", { rel: "icon", href: "/logos/logo.png" }]],
 
   themeConfig: {
