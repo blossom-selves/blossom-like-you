@@ -23,7 +23,7 @@
     <a href="https://bloom.blsv.org/"><strong>快速了解 >></strong></a>
     <br />
     <br />
-    <a href="https://github.dev/blossom-selves/blossom-selves">快速编辑</a>
+    <a href="https://github.dev/blossom-selves/blossom-like-you">快速编辑</a>
     ·
     <a href="https://github.com/blossom-selves/blossom-like-you/issues">报告错误/提交建议</a>
     ·
@@ -136,13 +136,13 @@ Stay tuned for more features!
 
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/blossom-selves/blossom-selves.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/blossom-selves/blossom-like-you.svg?style=for-the-badge
 [contributors-url]: https://github.com/blossom-selves/blossom-like-you/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/blossom-selves/blossom-selves.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/blossom-selves/blossom-like-you.svg?style=for-the-badge
 [forks-url]: https://github.com/blossom-selves/blossom-like-you/network/members
-[stars-shield]: https://img.shields.io/github/stars/blossom-selves/blossom-selves.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/blossom-selves/blossom-like-you.svg?style=for-the-badge
 [stars-url]: https://github.com/blossom-selves/blossom-like-you/stargazers
-[issues-shield]: https://img.shields.io/github/issues/blossom-selves/blossom-selves.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/blossom-selves/blossom-like-you.svg?style=for-the-badge
 [issues-url]: https://github.com/blossom-selves/blossom-like-you/issues
-[license-shield]: https://img.shields.io/github/license/blossom-selves/blossom-selves.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/blossom-selves/blossom-like-you.svg?style=for-the-badge
 [license-url]: https://github.com/blossom-selves/blossom-like-you/blob/master/LICENSE
