@@ -233,7 +233,7 @@ export default defineConfig({
   
   // Sitemap 配置
   sitemap: {
-    hostname: 'https://www.blsv.org',
+    hostname: 'https://bloom.blsv.org',
     lastmodDateOnly: false,
   },
 
@@ -317,7 +317,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: "https://github.com/blossom-selves/blossom-selves/edit/main/docs/:path",
+      pattern: "https://github.com/blossom-selves/blossom-like-you/edit/main/docs/:path",
       text: "在 GitHub 上编辑此页",
     },
 
@@ -345,7 +345,7 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/blossom-selves/blossom-selves" },
+      { icon: "github", link: "https://github.com/blossom-selves/blossom-like-you" },
     ],
 
     search: {
@@ -372,7 +372,7 @@ export default defineConfig({
   vite: {
     plugins: [
       GitChangelog({
-        repoURL: () => "https://github.com/blossom-selves/blossom-selves",
+        repoURL: () => "https://github.com/blossom-selves/blossom-like-you",
       }),
       GitChangelogMarkdownSection()
     ],
